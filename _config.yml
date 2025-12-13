@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Ruth Mwangi"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : assets/20221217_131558.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an AWS Certified Cloud Practitioner with a strong foundation in cloud fundamentals, Linux, networking, security, Python, and relational databases. I help individuals and small businesses set up, configure, troubleshoot, and optimize their AWS environments."
   location         : "Kenya"
   email            : ""
