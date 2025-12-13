@@ -1,0 +1,50 @@
+#creating vpc flow logs:
+aws s3api create-bucket --bucket flowlog309751 --region 'us-west-2' --create-bucket-configuration LocationConstraint='us-west-2'
+Output: "Location": "http://flowlog309751.s3.amazonaws.com/"
+
+#To get the VPC ID for VPC1 to create VPC Flow Logs, run the following command:
+
+aws ec2 describe-vpcs --query 'Vpcs[*].[VpcId,Tags[?Key==`Name`].Value,CidrBlock]' --filters "Name=tag:Name,Values='VPC1'"
+
+output: "vpc-0c7eb35c12079aae2", 
+        [
+            "VPC1"
+        ], 
+        "10.0.0.0/16"
+#create VPC Flow Logs on VPC1
+
+aws ec2 create-flow-logs --resource-type VPC --resource-ids vpc-0c7eb35c12079aae2 --traffic-type ALL --log-destination-type s3 --log-destination arn:aws:s3:::flowlog309751
+Output: "FlowLogIds": [
+        "fl-0445c5cebe50994f2"
+    ], 
+    "ClientToken": "7D34/DcPPpxKgqlou/ZgxeC8N3PWwE41CYneufHniSM="
+DONE
+
+#Get information about web server instance:
+aws ec2 describe-instances --filter "Name=ip-address,Values='54.189.135.138'"
+
+Output: long json document
+
+#Use 'query'to return only few information about the instance
+aws ec2 describe-instances --filter "Name=ip-address,Values='54.189.135.138'" --query 'Reservations[*].Instances[*].[State,PrivateIpAddress,InstanceId,SecurityGroups,SubnetId,KeyName]'
+Output: "Code": 16, 
+                "Name": "running"
+            }, 
+            "10.0.1.95", 
+            "i-09306d3fd3a49a452", 
+            [
+                {
+                    "GroupName": "c177138a4576167l12632251t1w881239459826-WebSecurityGroup-rmNy2GV71pi8", 
+                    "GroupId": "sg-0614561504a979e4a"
+                }
+            ], 
+            "subnet-0f73a9aaa4a98eea4", 
+            "vockey"
+aws ec2 describe-security-groups --group-ids sg-0614561504a979e4a
+aws ec2 describe-route-tables --route-table-ids rtb-024dbf0c38f96c6e5 --filter "Name=association.subnet-id,Values=subnet-0f73a9aaa4a98eea4"
+aws ec2 create-route --route-table-id rtb-024dbf0c38f96c6e5 --gateway-id igw-086008fc4dec388db --destination-cidr-block '0.0.0.0/0'
+aws ec2 delete-network-acl-entry --network-acl-id acl-08e830c7557f97ecb --ingress --rule-number 40
+
+aws ec2 describe-network-acls --filter "Name=association.subnet-id,Values=subnet-0f73a9aaa4a98eea4" --query 'NetworkAcls[*].[NetworkAclId,Entries]'
+aws s3 cp s3://flowlog309751/ . --recursive
+cd AWSLogs/881239459826/vpcflowlogs/us-west-2/2025/11/13/
