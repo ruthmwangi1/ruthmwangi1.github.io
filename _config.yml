@@ -72,7 +72,7 @@ search                   : true
 search_full_content      : true
 search_provider          : "google"
 lunr:
-  search_within_pages    : # true, false (default)
+  search_within_pages    : true
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -166,6 +166,8 @@ footer:
 include:
   - .htaccess
   - _pages
+  - assets/files
+  - search.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
