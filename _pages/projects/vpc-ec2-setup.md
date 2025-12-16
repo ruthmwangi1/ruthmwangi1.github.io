@@ -1,10 +1,8 @@
 ---
-title: "CloudFormation VPC + EC2 Setup"
+title: "Infrastructure as Code with AWS CloudFormation"
 layout: single
 permalink: projects/vpc-ec2-setup/
 ---
-
-## Infrastructure as Code with AWS CloudFormation
 
 **Project Type:** Infrastructure as Code  
 **Tools & Services:** AWS CloudFormation, VPC, Subnet, Security Group, EC2, Internet Gateway  
