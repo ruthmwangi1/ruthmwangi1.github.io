@@ -1,7 +1,7 @@
 ---
 title: "CloudFormation VPC + EC2 Setup"
 layout: single
-permalink: /projects/vpc-ec2-setup/
+permalink: projects/vpc-ec2-setup/
 ---
 
 ## Infrastructure as Code with AWS CloudFormation
