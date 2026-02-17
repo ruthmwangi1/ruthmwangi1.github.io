@@ -15,3 +15,6 @@ This is a Python program meant to validate medical records based on the followin
   Medications should follow the list format etc.
 If the data is invalidated, the different causative messages are printed in the output. Otherwise, "Valid Format" is printed as the output.
 
+[View Project Code](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/templates/medical-data-validator.py)
+
+
