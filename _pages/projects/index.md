@@ -13,7 +13,7 @@ Welcome! Here are some of the projects I have worked on. Click on any project to
 
 ### Python Programming Projects
 - [Medical Data Validator Program](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/_pages/projects/medical-data-validator.md)
-
+- [User Configuration Manager](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/_pages/projects/user-configuration-manager)
 
 
 You can explore each project to see **architecture, code, and outcomes**. More projects will be added as I continue building my portfolio.
