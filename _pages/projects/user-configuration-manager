@@ -1,3 +1,11 @@
+---
+title: "User Configuration Manager"
+layout: single
+permalink: /projects/user-configuration-manager/
+search: true
+---
+
+
 # User Configuration Manager (Python)
 
 ## Overview
@@ -50,7 +58,7 @@ To build a structured settings management system that allows users to **add, upd
 - Logical reasoning and problem-solving
 
 ---
+[View Project Code](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/templates/user-configuration-manager.py)
 
-## Outcome
-This project simulates a real-world configuration management system, demonstrating the ability to build structured backend logic with proper validation, consistent formatting, and user-friendly feedback.
+
 
