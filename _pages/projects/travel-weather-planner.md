@@ -1,3 +1,9 @@
+---
+permalink: /projects/travel-weather-planner/
+layout: single
+search: True
+---
+
 # Travel Weather Planner
 
 ## Project Overview
