@@ -35,7 +35,7 @@ Here are the professional certifications that validate my cloud technical skills
   - Python programming
   - Databases
  
-### **Soft Skills Training**
+<h2 style="color:#0A66C2;">Soft Skills Training</h2>
 - **Institution:** [Deloitte WorldClass Education Hub](https://worldclasseduhub.vuca.co.za/)
 - **Certifications:**
   - [Emptional Intelligence](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(1).pdf)
