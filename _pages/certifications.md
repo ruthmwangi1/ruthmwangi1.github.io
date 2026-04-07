@@ -9,10 +9,8 @@ Here are the professional certifications that validate my cloud technical skills
 
 
 ## ☁️ Cloud Certifications
-
+<h3 style="color:#0A66C2;">AWS-Certified Cloud Practitioner</h3>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="b4a37126-8cec-4b59-b921-ef7453fb879d" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-### **AWS Certified Cloud Practitioner**
 - **Issued by:** Amazon Web Services (AWS)
 - **Focus areas:**
   - Cloud concepts e.g., IAM(Identity and Access Management), shared responsibility model, and scalability & high availability.
@@ -22,10 +20,8 @@ Here are the professional certifications that validate my cloud technical skills
 
 
 ## 📚 Training & Programs
-
+<h3 style="color:#0A66C2;">AWS re/Start Program</h3>
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="df30e27b-9315-409c-a6be-6ccbb535f0e4" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-### **AWS re/Start Program**
 - **Provider:** Amazon Web Services
 - **Skills gained:**
   - AWS Cloud Computing fundamentals
@@ -35,7 +31,7 @@ Here are the professional certifications that validate my cloud technical skills
   - Python programming
   - Databases
  
-<h2 style="color:#0A66C2;">Soft Skills Training</h2>
+<h3 style="color:#0A66C2;">Soft Skills Training</h3>
 - **Institution:** [Deloitte WorldClass Education Hub](https://worldclasseduhub.vuca.co.za/)
 - **Certifications:**
   - [Emptional Intelligence](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(1).pdf)
