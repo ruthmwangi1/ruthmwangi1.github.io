@@ -14,7 +14,6 @@ Here are the professional certifications that validate my cloud technical skills
 
 ### **AWS Certified Cloud Practitioner**
 - **Issued by:** Amazon Web Services (AWS)
-- **Status:** Achieved
 - **Focus areas:**
   - Cloud concepts e.g., IAM(Identity and Access Management), shared responsibility model, and scalability & high availability.
   - AWS core services e.g., Storage services, VPC & cloud networking, compute, and databases.
@@ -28,7 +27,6 @@ Here are the professional certifications that validate my cloud technical skills
 
 ### **AWS re/Start Program**
 - **Provider:** Amazon Web Services
-- **Status:** Achieved
 - **Skills gained:**
   - AWS Cloud Computing fundamentals
   - Linux fundamentals
@@ -36,3 +34,8 @@ Here are the professional certifications that validate my cloud technical skills
   - Cloud security
   - Python programming
   - Databases
+ 
+### **Soft Skills Training**
+- **Institution:** [Deloitte WorldClass Education Hub](https://worldclasseduhub.vuca.co.za/)
+- **Certifications:**
+  - [Emptional Intelligence](assets/document (1).pdf)
