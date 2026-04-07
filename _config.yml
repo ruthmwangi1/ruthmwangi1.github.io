@@ -106,14 +106,14 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ruth Mwangi"
+  name             : ""
   avatar           : "assets/20221217_131558.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an AWS Certified Cloud Practitioner with a strong foundation in cloud fundamentals, Linux, networking, security, Python, and relational databases. I help individuals and small businesses set up, configure, troubleshoot, and optimize their AWS environments."
+  bio              : ""
   location         : "Kenya"
-  email            : ""
+  #email            : ""
   links:
     - label: "LinkedIn"
-      icon: "fas fa-fw fa-envelope-square"
+      icon: "fab fa-linkedin"
       url: "https://www.linkedin.com/in/ruth-wambui-mwangi/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -134,6 +134,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ruth-wambui-mwangi/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
@@ -142,7 +145,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/ruthmwangi1"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
