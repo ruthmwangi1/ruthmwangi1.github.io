@@ -38,4 +38,12 @@ Here are the professional certifications that validate my cloud technical skills
 ### **Soft Skills Training**
 - **Institution:** [Deloitte WorldClass Education Hub](https://worldclasseduhub.vuca.co.za/)
 - **Certifications:**
-  - [Emptional Intelligence](assets/document (1).pdf)
+  - [Emptional Intelligence](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(1).pdf)
+  - [Effective Leadership](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(2).pdf)
+  - [Digital Literacy](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(3).pdf)
+  - [Critical Thinking](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(4).pdf)
+  - [Financial Literacy Programme](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(5).pdf)
+  - [Real-World Readiness](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(6).pdf)
+  - [Entrepreneurial Skills Development Part 1](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(7).pdf)
+  - [Entrepreneurial Skills Development Part 2](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(8).pdf)
+  - [Personal Branding for Career Success](https://github.com/ruthmwangi1/ruthmwangi1.github.io/blob/master/assets/document%20(10).pdf)
